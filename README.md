@@ -1,85 +1,5 @@
----------
-### YOLOv5、YOLOv7、YOLOv8 模型 2024/全系列/最新/改进方式教程（内附源代码）
 
-🔥 《芒果书》系列改进专栏内的改进文章
-
-专栏地址：[独家全网首发专栏《芒果YOLOv8深度改进教程》](https://blog.csdn.net/qq_38668236/category_12356719.html)🍊
-
-专栏地址：[独家全网首发专栏《芒果YOLOv5深度改进教程》](https://blog.csdn.net/qq_38668236/category_12297448.html)🥝
-
-专栏地址：[独家全网首发专栏《芒果YOLOv7深度改进教程》](https://blog.csdn.net/qq_38668236/category_12219317.html)🍉
-
--------
-
-## 全新的 UltralyticsPro 项目来袭🚀
-
-项目地址：[https://github.com/blotemj/ultralyticsPro](https://github.com/blotemj/ultralyticsPro)
-
-🔥🔥🔥专注于YOLOv8改进，NEW - YOLOv8 🚀 in PyTorch >, Support to improve Backbone, Neck, Head, Loss, IoU, LA, NMS and other modules🚀 Makes YOLOv8 improvements easy again
-
-🌟 全新的YOLOv8改进项目**ultralyticsPro**来袭，最新改进点更新🚀2024
-
-**一、 改进YOLOv8 免费内容**<br />本项目持续会更新一些免费的改进点，每周都会更新<br />
-
-3.22更新：
-注意力机制：[ultralytics/cfg/models/cfg2024/YOLOv8-Attention](https://github.com/blotemj/ultralyticsPro/tree/main/ultralytics/cfg/models/cfg2024/YOLOv8-Attention)  
-
-GAM 注意力机制、  
-SA 注意力机制、  
-SimAM 注意力机制、  
-SK 注意力机制、  
-SOCA 注意力机制、  
-CBAM 注意力机制、  
-
-3.23更新：
-金字塔结构：[ultralytics/cfg/models/cfg2024/YOLOv8-金字塔结构改进](https://github.com/blotemj/ultralyticsPro/blob/main/ultralytics/cfg/models/cfg2024/YOLOv8-%E9%87%91%E5%AD%97%E5%A1%94%E7%BB%93%E6%9E%84%E6%94%B9%E8%BF%9B/YOLOv8-ASPP.yaml)  
-
-SPPELAN、  
-SimSPPF、  
-BasicRFB、  
-ASPP、  
-SPPFCSPC  
-
-更多更新，详细点击👉：[https://github.com/blotemj/ultralyticsPro](https://github.com/blotemj/ultralyticsPro)
-
-----------------------------
-
-### 🌟 全新的lxm2024版本来袭，最新改进点更新🚀2024
-
----------
-
-YOLOv5项目更新
-
-2024.03
-
-新增Dysample上采样改进点：ICCV2023论文：[Dysample上采样改进](./configs2024/yolov5-other/yolov5-dysample.yaml)
-
-## YOLO Air : Makes improvements easy again
-
-<div align="center">
-  <p>
-    <a align="center" href="https://github.com/blotemj/lxm" target="_blank">
-      <img width="850" src="https://img-blog.csdnimg.cn/11d5f1f403f74cff9c2f70a0c3b92de4.png"></a>
-    <br><br>
-  </p>
-  <p>lxm是一个基于PyTorch的YOLO算法库。统一模型代码框架、统一应用、统一改进、易于模块组合、构建更强大的网络模型。</p>
-
-  简体中文 | [English](./README_EN.md)
-
-  ![](https://img.shields.io/badge/News-2022-red)  ![](https://img.shields.io/badge/Update-lxm-orange) ![](https://visitor-badge.glitch.me/badge?page_id=blotemj.lxm)  
-
-  #### **支持**
-
-![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv5-red) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv7-brightgreen) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv6-blueviolet) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOX-yellow) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLOE-007d65) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv4-green) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-TOOD-6a6da9) 
-![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv3-yellowgreen) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOR-lightgrey) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-Scaled_YOLOv4-ff96b4) ![](https://img.shields.io/badge/Support-Transformer-9cf) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLO-lightgrey) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLOv2-yellowgreen) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLOEPlus-d5c59f) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-MLP-ff69b4) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-Attention-green)
-
-[特性🚀](#主要特性) • [使用🍉](#使用) • [文档📒](https://github.com/blotemj/lxm) • [报告问题🌟](https://github.com/blotemj/lxm/issues/new) • [更新💪](#-to-do) • [讨论✌️](https://github.com/blotemj/lxm/discussions)  
-• [YOLO改进方式教程及原理参考🚀](#yolo网络模型具体改进方式教程及原理参考)•
-
-
-![https://github.com/blotemj/lxm](https://img-blog.csdnimg.cn/f7045ecc4f90430cafc276540dddd702.gif#pic_center)
-
-</div>
+🔥🔥🔥专注于YOLO改进
 
 ## Introduction
 
@@ -94,19 +14,6 @@ YOLOv5项目更新
 
 支持集成多任务，包括目标检测、实例分割、图像分类、姿态估计、人脸检测、目标跟踪等任务
 
-<img src='https://img-blog.csdnimg.cn/1589c7f744004401b9d88132de35abe8.jpeg#pic_center' alt='ingishvcn'>
-
-**Star🌟、Fork** 不迷路，同步更新。![](https://img.shields.io/github/stars/blotemj/lxm?style=social)
-
-项目地址🌟: https://github.com/blotemj/lxm
-
-
-部分改进说明教程🌟: [https://github.com/blotemj/lxm/wiki/Improved-tutorial-presentation](https://github.com/blotemj/lxm/wiki/Improved-tutorial-presentation)
-______________________________________________________________________
-
-### 🌟 Beta Supported Updates
-下列功能 lxm-Beta版本内测 已支持🔥
-- 其他 功能🌟
 ______________________________________________________________________
 
 ### 🌟 To Do
@@ -465,8 +372,6 @@ lxm 算法库汇总了多种主流YOLO系列检测模型，一套代码集成多
 - SimAM Attention 
 持续更新中🎈  
 
-- 🔥🔥🔥 重磅！！！作为开源项目补充，推荐一个注意力算法代码库[External-Attention](https://github.com/xmu-xiaoma666/External-Attention-pytorch)，里面汇总整理很全面，包含各种Attention等代码，代码简洁易读，一行代码实现Attention机制。
-
 🚀更多空间金字塔池化结构  
 - SPP
 - SPPF
@@ -544,8 +449,6 @@ Conv, GhostConv, Bottleneck, GhostBottleneck, SPP, SPPF, DWConv, MixConv2d, Focu
 
 以上组件模块使用统一模型代码框架、统一任务形式、统一应用方式，**模块组件化**🚀 可以帮助用户自定义快速组合Backbone、Neck、Head，使得网络模型多样化，助力科研改进检测算法，构建更强大的网络模型。
 
-说明: 以上主要特性支持 包括 Main版本 和 Beta版本，部分特性暂时只完成更新在 Beta 中，不是所有更新都直接在 Main 中，后续 Beta 版本内测之后逐渐加入到 Main版本中。
-
 ______________________________________________________________________
 
 ### 内置网络模型配置支持✨
@@ -577,39 +480,17 @@ ______________________________________________________________________
 
 
 ![yolo](https://img-blog.csdnimg.cn/b962fcd1bfa841399226ca564f22a385.gif#pic_center)
-### 预训练权重🚀
-
-- YOLOv5
-https://github.com/ultralytics/yolov5/releases/tag/v6.1
-
-- YOLOv4
-https://github.com/blotemj/lxm/releases/tag/v1.0
-
-- YOLOv3
-https://github.com/blotemj/lxm/releases/tag/v1.0
-
-- YOLOR
-https://github.com/blotemj/lxm/releases/tag/v1.0
-
-- Scaled_YOLO
-https://github.com/blotemj/lxm/releases/tag/v1.0
-
-- YOLOv7
-https://github.com/blotemj/lxm/releases/tag/v1.0
 
 ______________________________________________________________________
 
 ## 使用🍉
-
-**About the code.** Follow the design principle of [YOLOv5](https://github.com/ultralytics/yolov5).  
-The original version was created based on YOLOv5(v6.1)
 
 ### 安装
 
 在**Python>=3.7.0** 的环境中克隆版本仓并安装 requirements.txt，包括**PyTorch>=1.7**。
 
 ```bash
-$ git clone https://github.com/blotemj/lxm.git  # 克隆
+$ git clone https://gitee.com/blotemj/lxm.git  # 克隆
 $ cd lxm
 $ pip install -r requirements.txt  # 安装
 ```
@@ -638,13 +519,7 @@ $ python detect.py --source 0  # 网络摄像头
 ```bash
 $ python wbf.py
 ```
-______________________________________________________________________
 
-### 论文分享 <img title="" src="https://user-images.githubusercontent.com/48054808/157800467-2a9946ad-30d1-49a9-b9db-ba33413d9c90.png" alt="" width="20">
-
-FightingCV公众号每天分享前沿论文动态  
-(公众号回复加群,添加小助手加交流群)      
-______________________________________________________________________
 
 ### Performance
 | Model                                                                                                | size<br><sup>(pixels) | mAP<sup>val<br>0.5:0.95 | mAP<sup>val<br>0.5 | Speed<br><sup>CPU b1<br>(ms) | Speed<br><sup>V100 b1<br>(ms) | Speed<br><sup>V100 b32<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>@640 (B) | Weights
@@ -712,70 +587,3 @@ ______________________________________________________________________
 </details>
 
 ______________________________________________________________________
-
-
-### YOLOv5教程✨
-与YOLOv5框架同步
-
-- [训练自定义数据](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)  🚀 推荐
-- [获得最佳训练效果的技巧](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results)  ☘️ 推荐
-- [使用 Weights & Biases 记录实验](https://github.com/ultralytics/yolov5/issues/1289)  🌟 新
-- [Roboflow：数据集、标签和主动学习](https://github.com/ultralytics/yolov5/issues/4975)  🌟 新
-- [多GPU训练](https://github.com/ultralytics/yolov5/issues/475)
-- [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)  ⭐ 新
-- [TFLite, ONNX, CoreML, TensorRT 导出](https://github.com/ultralytics/yolov5/issues/251) 🚀
-- [测试时数据增强 (TTA)](https://github.com/ultralytics/yolov5/issues/303)
-- [模型集成](https://github.com/ultralytics/yolov5/issues/318)
-- [模型剪枝/稀疏性](https://github.com/ultralytics/yolov5/issues/304)
-- [超参数进化](https://github.com/ultralytics/yolov5/issues/607)
-- [带有冻结层的迁移学习](https://github.com/ultralytics/yolov5/issues/1314) ⭐ 新
-- [架构概要](https://github.com/ultralytics/yolov5/issues/6998) ⭐ 新
-
-______________________________________________________________________
-
-
-### 未来增强✨
-后续会持续建设和完善 lxm 生态  
-完善集成更多 YOLOv5 系列模型，持续结合不同模块，构建更多不同网络模型  
-横向拓展和引入关联技术等等   
-
-______________________________________________________________________
-
-## Citation✨
-
-```python
-@article{2022lxm,
-  title={{lxm}: Makes improvements easy again},
-  author={blotemj},
-  repo={github https://github.com/blotemj/lxm},
-  year={2022}
-}
-```
-
-## Statement
-<details><summary> <b>Expand</b> </summary>
-
-* The content of this site is only for sharing notes. If some content is infringing, please sending email.
-
-* If you have any question, please discuss with me by sending email.
-</details>
-
-## Acknowledgements
-
-<details><summary> <b>Expand</b> </summary>
-
-[https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)  
-[https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov3)  
-[https://github.com/WongKinYiu/PyTorch_YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4)  
-[https://github.com/WongKinYiu/ScaledYOLOv4](https://github.com/WongKinYiu/ScaledYOLOv4)   
-[https://github.com/meituan/YOLOv6](https://github.com/meituan/YOLOv6)  
-[https://github.com/WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)  
-[https://github.com/WongKinYiu/yolor](https://github.com/WongKinYiu/yolor)   
-[https://github.com/xmu-xiaoma666/External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)  
-[https://gitee.com/SearchSource/yolov5_yolox](https://gitee.com/SearchSource/yolov5_yolox)  
-[https://github.com/Krasjet-Yu/YOLO-FaceV2](https://github.com/Krasjet-Yu/YOLO-FaceV2)  
-[https://github.com/positive666/yolov5_research/](https://github.com/positive666/yolov5_research)  
-[https://github.com/ppogg/YOLOv5-Lite](https://github.com/ppogg/YOLOv5-Lite)  
-[https://github.com/Gumpest/YOLOv5-Multibackbone](https://github.com/Gumpest/YOLOv5-Multibackbone-Compression)  
-
-</details>
