@@ -9,10 +9,11 @@
 
 **统一模型代码框架、统一应用方式、统一调参、统一改进、集成多任务、易于模块组合、构建更强大的网络模型**。
 
-内置集成YOLOv5、YOLOv7、YOLOv6、YOLOX、YOLOR、Transformer、PP-YOLO、PP-YOLOv2、PP-YOLOE、PP-YOLOEPlus、Scaled_YOLOv4、YOLOv3、YOLOv4、YOLO-Face、TPH-YOLO、YOLOv5Lite、SPD-YOLO、SlimNeck-YOLO、PicoDet等模型网络结构... 
-集成多种检测算法 和 相关多任务模型 使用统一模型代码框架，**集成在 lxm 库中，统一应用方式**。便于科研者用于论文算法模型改进，模型对比，实现网络组合多样化。包含轻量化模型和精度更高的模型，根据场景合理选择，在精度和速度俩个方面取得平衡。同时该库支持解耦不同的结构和模块组件，让模块组件化，通过组合不同的模块组件，用户可以根据不同数据集或不同业务场景自行定制化构建不同检测模型。
+内置集成YOLO等模型网络结构... 
+集成多种检测算法 和 相关多任务模型 使用统一模型代码框架。便于科研者用于论文算法模型改进，模型对比，实现网络组合多样化。
+包含轻量化模型和精度更高的模型，根据场景合理选择，在精度和速度俩个方面取得平衡。
+同时该库支持解耦不同的结构和模块组件，让模块组件化，通过组合不同的模块组件，用户可以根据不同数据集或不同业务场景自行定制化构建不同检测模型。
 
-支持集成多任务，包括目标检测、实例分割、图像分类、姿态估计、人脸检测、目标跟踪等任务
 
 ______________________________________________________________________
 
@@ -24,10 +25,6 @@ ______________________________________________________________________
 ### 主要特性🚀
 
 🚀支持更多的YOLO系列算法模型改进(持续更新...)
-
-lxm 算法库汇总了多种主流YOLO系列检测模型，一套代码集成多种模型: 
-
-- 内置集成 YOLOv5 模型网络结构、YOLOv7 模型网络结构、 YOLOv6 模型网络结构、PP-YOLO 模型网络结构、PP-YOLOE 模型网络结构、PP-YOLOEPlus 模型网络结构、YOLOR 模型网络结构、YOLOX 模型网络结构、ScaledYOLOv4 模型网络结构、YOLOv4 模型网络结构、YOLOv3 模型网络结构、YOLO-FaceV2模型网络结构、TPH-YOLOv5模型网络结构、SPD-YOLO模型网络结构、SlimNeck-YOLO模型网络结构、YOLOv5-Lite模型网络结构、PicoDet模型网络结构等持续更新中...
 
 
 🚀支持更多的网络模型组件
@@ -330,7 +327,7 @@ lxm 算法库汇总了多种主流YOLO系列检测模型，一套代码集成多
 -  Swin-Transfomrer(v2)  
 -  以及其他trans系列
 持续更新中🎈🚀🚀🚀
-注: (lxm(Beta)🔥 已经完成更新 20+ 种Transformer系列主干网络、多种MLP网络 以及 绝大部分重参数化结构模型网络)
+
 
 🚀支持更多Neck
 - FPN  
@@ -349,7 +346,6 @@ lxm 算法库汇总了多种主流YOLO系列检测模型，一套代码集成多
 -  自适应空间特征融合 检测头ASFF Head;
 -  YOLOv6-v2.0 Efficient decoupled head;
 -  YOLOv7检测头IAuxDetect Head, IDetect Head等;
-
 -  其他不同检测头
 
 🚀支持更多即插即用的注意力机制Attention
@@ -443,17 +439,9 @@ Conv, GhostConv, Bottleneck, GhostBottleneck, SPP, SPPF, DWConv, MixConv2d, Focu
 🚀支持加载YOLOv3、YOLOv4、YOLOv5、YOLOv7、YOLOR、Scaled_YOLO等网络的官方预训练权重进行迁移学习
 
 🚀 YOLO系列网络模型热力图可视化(GardCAM、GardCAM++等)
-支持YOLOv3、、YOLOv3-SPP、YOLOv4、YOLOv5、YOLOR、YOLOv7Scaled_YOLOv4、TPH-YOLO、SPD-YOLO以及自定义网络模型等模型 (lxm(Beta版本内测)🔥已支持)
-
-以上组件模块使用统一模型代码框架、统一任务形式、统一应用方式，**模块组件化**🚀 可以帮助用户自定义快速组合Backbone、Neck、Head，使得网络模型多样化，助力科研改进检测算法，构建更强大的网络模型。
+支持YOLOv3、、YOLOv3-SPP、YOLOv4、YOLOv5、YOLOR、YOLOv7Scaled_YOLOv4、TPH-YOLO、SPD-YOLO以及自定义网络模型等模型
 
 ______________________________________________________________________
-
-### 内置网络模型配置支持✨
-
-🚀包括基于 YOLOv5、YOLOv7、YOLOX、YOLOR、YOLOv3、YOLOv4、Scaled_YOLOv4、PPYOLO、PPYOLOE、PPYOLOEPlus、Transformer、YOLO-FaceV2、PicoDet、YOLOv5-Lite、TPH-YOLOv5、SPD-YOLO等**其他多种改进网络结构等算法模型**的模型配置文件
-______________________________________________________________________
-
 
 ## 使用🍉
 
