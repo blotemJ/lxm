@@ -116,7 +116,7 @@ class ASFF_Detect(nn.Module):   #add ASFFV5 layer and Rfb
                 if self.onnx_dynamic or self.grid[i].shape[2:4] != x[i].shape[2:4]:
                     self.grid[i], self.anchor_grid[i] = self._make_grid(nx, ny, i)
 
-                y = x[i].sigmoid() # https://github.com/iscyy/yoloair
+                y = x[i].sigmoid() # https://github.com/blotemj/lxm
                 if self.inplace:
                     y[..., 0:2] = (y[..., 0:2] * 2 + self.grid[i]) * self.stride[i]  # xy
                     y[..., 2:4] = (y[..., 2:4] * 2) ** 2 * self.anchor_grid[i]  # wh
@@ -172,7 +172,7 @@ class IDetect(nn.Module):
         self.register_buffer('anchor_grid', a.clone().view(self.nl, 1, -1, 1, 1, 2))  # shape(nl,1,na,1,1,2)
         self.m = nn.ModuleList(nn.Conv2d(x, self.no * self.na, 1) for x in ch)  # output conv
         
-        self.ia = nn.ModuleList(ImplicitA(x) for x in ch) # https://github.com/iscyy/yoloair
+        self.ia = nn.ModuleList(ImplicitA(x) for x in ch) # https://github.com/blotemj/lxm
         self.im = nn.ModuleList(ImplicitM(self.no * self.na) for _ in ch)
     
     def forward(self, x):

@@ -1,7 +1,7 @@
 # Attention🚀
 
 Code corresponding to attention👇👇👇
-[https://github.com/iscyy/yoloair/tree/main/docs/attention_model](https://github.com/iscyy/yoloair/tree/main/docs/attention_model)
+[https://github.com/blotemj/lxm/tree/main/docs/attention_model](https://github.com/blotemj/lxm/tree/main/docs/attention_model)
 
 - [Attention Series](#attention-series)
 

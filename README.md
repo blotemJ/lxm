@@ -13,7 +13,7 @@
 
 ## 全新的 UltralyticsPro 项目来袭🚀
 
-项目地址：[https://github.com/iscyy/ultralyticsPro](https://github.com/iscyy/ultralyticsPro)
+项目地址：[https://github.com/blotemj/ultralyticsPro](https://github.com/blotemj/ultralyticsPro)
 
 🔥🔥🔥专注于YOLOv8改进，NEW - YOLOv8 🚀 in PyTorch >, Support to improve Backbone, Neck, Head, Loss, IoU, LA, NMS and other modules🚀 Makes YOLOv8 improvements easy again
 
@@ -22,7 +22,7 @@
 **一、 改进YOLOv8 免费内容**<br />本项目持续会更新一些免费的改进点，每周都会更新<br />
 
 3.22更新：
-注意力机制：[ultralytics/cfg/models/cfg2024/YOLOv8-Attention](https://github.com/iscyy/ultralyticsPro/tree/main/ultralytics/cfg/models/cfg2024/YOLOv8-Attention)  
+注意力机制：[ultralytics/cfg/models/cfg2024/YOLOv8-Attention](https://github.com/blotemj/ultralyticsPro/tree/main/ultralytics/cfg/models/cfg2024/YOLOv8-Attention)  
 
 GAM 注意力机制、  
 SA 注意力机制、  
@@ -32,7 +32,7 @@ SOCA 注意力机制、
 CBAM 注意力机制、  
 
 3.23更新：
-金字塔结构：[ultralytics/cfg/models/cfg2024/YOLOv8-金字塔结构改进](https://github.com/iscyy/ultralyticsPro/blob/main/ultralytics/cfg/models/cfg2024/YOLOv8-%E9%87%91%E5%AD%97%E5%A1%94%E7%BB%93%E6%9E%84%E6%94%B9%E8%BF%9B/YOLOv8-ASPP.yaml)  
+金字塔结构：[ultralytics/cfg/models/cfg2024/YOLOv8-金字塔结构改进](https://github.com/blotemj/ultralyticsPro/blob/main/ultralytics/cfg/models/cfg2024/YOLOv8-%E9%87%91%E5%AD%97%E5%A1%94%E7%BB%93%E6%9E%84%E6%94%B9%E8%BF%9B/YOLOv8-ASPP.yaml)  
 
 SPPELAN、  
 SimSPPF、  
@@ -40,11 +40,11 @@ BasicRFB、
 ASPP、  
 SPPFCSPC  
 
-更多更新，详细点击👉：[https://github.com/iscyy/ultralyticsPro](https://github.com/iscyy/ultralyticsPro)
+更多更新，详细点击👉：[https://github.com/blotemj/ultralyticsPro](https://github.com/blotemj/ultralyticsPro)
 
 ----------------------------
 
-### 🌟 全新的YOLOAir2024版本来袭，最新改进点更新🚀2024
+### 🌟 全新的lxm2024版本来袭，最新改进点更新🚀2024
 
 ---------
 
@@ -58,26 +58,26 @@ YOLOv5项目更新
 
 <div align="center">
   <p>
-    <a align="center" href="https://github.com/iscyy/yoloair" target="_blank">
+    <a align="center" href="https://github.com/blotemj/lxm" target="_blank">
       <img width="850" src="https://img-blog.csdnimg.cn/11d5f1f403f74cff9c2f70a0c3b92de4.png"></a>
     <br><br>
   </p>
-  <p>YOLOAir是一个基于PyTorch的YOLO算法库。统一模型代码框架、统一应用、统一改进、易于模块组合、构建更强大的网络模型。</p>
+  <p>lxm是一个基于PyTorch的YOLO算法库。统一模型代码框架、统一应用、统一改进、易于模块组合、构建更强大的网络模型。</p>
 
   简体中文 | [English](./README_EN.md)
 
-  ![](https://img.shields.io/badge/News-2022-red)  ![](https://img.shields.io/badge/Update-YOLOAir-orange) ![](https://visitor-badge.glitch.me/badge?page_id=iscyy.yoloair)  
+  ![](https://img.shields.io/badge/News-2022-red)  ![](https://img.shields.io/badge/Update-lxm-orange) ![](https://visitor-badge.glitch.me/badge?page_id=blotemj.lxm)  
 
   #### **支持**
 
-![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-YOLOv5-red) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-YOLOv7-brightgreen) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-YOLOv6-blueviolet) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-YOLOX-yellow) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-PPYOLOE-007d65) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-YOLOv4-green) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-TOOD-6a6da9) 
-![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-YOLOv3-yellowgreen) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-YOLOR-lightgrey) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-Scaled_YOLOv4-ff96b4) ![](https://img.shields.io/badge/Support-Transformer-9cf) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-PPYOLO-lightgrey) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-PPYOLOv2-yellowgreen) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-PPYOLOEPlus-d5c59f) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-MLP-ff69b4) ![https://github.com/iscyy/yoloair](https://img.shields.io/badge/Support-Attention-green)
+![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv5-red) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv7-brightgreen) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv6-blueviolet) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOX-yellow) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLOE-007d65) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv4-green) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-TOOD-6a6da9) 
+![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOv3-yellowgreen) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-YOLOR-lightgrey) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-Scaled_YOLOv4-ff96b4) ![](https://img.shields.io/badge/Support-Transformer-9cf) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLO-lightgrey) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLOv2-yellowgreen) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-PPYOLOEPlus-d5c59f) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-MLP-ff69b4) ![https://github.com/blotemj/lxm](https://img.shields.io/badge/Support-Attention-green)
 
-[特性🚀](#主要特性) • [使用🍉](#使用) • [文档📒](https://github.com/iscyy/yoloair) • [报告问题🌟](https://github.com/iscyy/yoloair/issues/new) • [更新💪](#-to-do) • [讨论✌️](https://github.com/iscyy/yoloair/discussions)  
+[特性🚀](#主要特性) • [使用🍉](#使用) • [文档📒](https://github.com/blotemj/lxm) • [报告问题🌟](https://github.com/blotemj/lxm/issues/new) • [更新💪](#-to-do) • [讨论✌️](https://github.com/blotemj/lxm/discussions)  
 • [YOLO改进方式教程及原理参考🚀](#yolo网络模型具体改进方式教程及原理参考)•
 
 
-![https://github.com/iscyy/yoloair](https://img-blog.csdnimg.cn/f7045ecc4f90430cafc276540dddd702.gif#pic_center)
+![https://github.com/blotemj/lxm](https://img-blog.csdnimg.cn/f7045ecc4f90430cafc276540dddd702.gif#pic_center)
 
 </div>
 
@@ -90,22 +90,22 @@ YOLOv5项目更新
 **统一模型代码框架、统一应用方式、统一调参、统一改进、集成多任务、易于模块组合、构建更强大的网络模型**。
 
 内置集成YOLOv5、YOLOv7、YOLOv6、YOLOX、YOLOR、Transformer、PP-YOLO、PP-YOLOv2、PP-YOLOE、PP-YOLOEPlus、Scaled_YOLOv4、YOLOv3、YOLOv4、YOLO-Face、TPH-YOLO、YOLOv5Lite、SPD-YOLO、SlimNeck-YOLO、PicoDet等模型网络结构... 
-集成多种检测算法 和 相关多任务模型 使用统一模型代码框架，**集成在 YOLOAir 库中，统一应用方式**。便于科研者用于论文算法模型改进，模型对比，实现网络组合多样化。包含轻量化模型和精度更高的模型，根据场景合理选择，在精度和速度俩个方面取得平衡。同时该库支持解耦不同的结构和模块组件，让模块组件化，通过组合不同的模块组件，用户可以根据不同数据集或不同业务场景自行定制化构建不同检测模型。
+集成多种检测算法 和 相关多任务模型 使用统一模型代码框架，**集成在 lxm 库中，统一应用方式**。便于科研者用于论文算法模型改进，模型对比，实现网络组合多样化。包含轻量化模型和精度更高的模型，根据场景合理选择，在精度和速度俩个方面取得平衡。同时该库支持解耦不同的结构和模块组件，让模块组件化，通过组合不同的模块组件，用户可以根据不同数据集或不同业务场景自行定制化构建不同检测模型。
 
 支持集成多任务，包括目标检测、实例分割、图像分类、姿态估计、人脸检测、目标跟踪等任务
 
 <img src='https://img-blog.csdnimg.cn/1589c7f744004401b9d88132de35abe8.jpeg#pic_center' alt='ingishvcn'>
 
-**Star🌟、Fork** 不迷路，同步更新。![](https://img.shields.io/github/stars/iscyy/yoloair?style=social)
+**Star🌟、Fork** 不迷路，同步更新。![](https://img.shields.io/github/stars/blotemj/lxm?style=social)
 
-项目地址🌟: https://github.com/iscyy/yoloair
+项目地址🌟: https://github.com/blotemj/lxm
 
 
-部分改进说明教程🌟: [https://github.com/iscyy/yoloair/wiki/Improved-tutorial-presentation](https://github.com/iscyy/yoloair/wiki/Improved-tutorial-presentation)
+部分改进说明教程🌟: [https://github.com/blotemj/lxm/wiki/Improved-tutorial-presentation](https://github.com/blotemj/lxm/wiki/Improved-tutorial-presentation)
 ______________________________________________________________________
 
 ### 🌟 Beta Supported Updates
-下列功能 YOLOAir-Beta版本内测 已支持🔥
+下列功能 lxm-Beta版本内测 已支持🔥
 - 其他 功能🌟
 ______________________________________________________________________
 
@@ -118,7 +118,7 @@ ______________________________________________________________________
 
 🚀支持更多的YOLO系列算法模型改进(持续更新...)
 
-YOLOAir 算法库汇总了多种主流YOLO系列检测模型，一套代码集成多种模型: 
+lxm 算法库汇总了多种主流YOLO系列检测模型，一套代码集成多种模型: 
 
 - 内置集成 YOLOv5 模型网络结构、YOLOv7 模型网络结构、 YOLOv6 模型网络结构、PP-YOLO 模型网络结构、PP-YOLOE 模型网络结构、PP-YOLOEPlus 模型网络结构、YOLOR 模型网络结构、YOLOX 模型网络结构、ScaledYOLOv4 模型网络结构、YOLOv4 模型网络结构、YOLOv3 模型网络结构、YOLO-FaceV2模型网络结构、TPH-YOLOv5模型网络结构、SPD-YOLO模型网络结构、SlimNeck-YOLO模型网络结构、YOLOv5-Lite模型网络结构、PicoDet模型网络结构等持续更新中...
 
@@ -128,7 +128,7 @@ YOLOAir 算法库汇总了多种主流YOLO系列检测模型，一套代码集�
 
 <details open>
 <div align="center">
-  <b>YOLOAir Structural Module Components</b>
+  <b>lxm Structural Module Components</b>
 </div>
 <table align="center">
   <tbody>
@@ -199,7 +199,7 @@ YOLOAir 算法库汇总了多种主流YOLO系列检测模型，一套代码集�
 
 <details open>
 <div align="center">
-  <b>YOLOAir Module Components</b>
+  <b>lxm Module Components</b>
 </div>
 <table align="center">
   <tbody>
@@ -347,7 +347,7 @@ YOLOAir 算法库汇总了多种主流YOLO系列检测模型，一套代码集�
 
 <details open>
 <div align="center">
-  <b>YOLOAir Module Components</b>
+  <b>lxm Module Components</b>
 </div>
 <table align="center">
   <tbody>
@@ -423,7 +423,7 @@ YOLOAir 算法库汇总了多种主流YOLO系列检测模型，一套代码集�
 -  Swin-Transfomrer(v2)  
 -  以及其他trans系列
 持续更新中🎈🚀🚀🚀
-注: (YOLOAir(Beta)🔥 已经完成更新 20+ 种Transformer系列主干网络、多种MLP网络 以及 绝大部分重参数化结构模型网络)
+注: (lxm(Beta)🔥 已经完成更新 20+ 种Transformer系列主干网络、多种MLP网络 以及 绝大部分重参数化结构模型网络)
 
 🚀支持更多Neck
 - FPN  
@@ -538,9 +538,9 @@ Conv, GhostConv, Bottleneck, GhostBottleneck, SPP, SPPF, DWConv, MixConv2d, Focu
 🚀支持加载YOLOv3、YOLOv4、YOLOv5、YOLOv7、YOLOR、Scaled_YOLO等网络的官方预训练权重进行迁移学习
 
 🚀 YOLO系列网络模型热力图可视化(GardCAM、GardCAM++等)
-支持YOLOv3、、YOLOv3-SPP、YOLOv4、YOLOv5、YOLOR、YOLOv7Scaled_YOLOv4、TPH-YOLO、SPD-YOLO以及自定义网络模型等模型 (YOLOAir(Beta版本内测)🔥已支持)
+支持YOLOv3、、YOLOv3-SPP、YOLOv4、YOLOv5、YOLOR、YOLOv7Scaled_YOLOv4、TPH-YOLO、SPD-YOLO以及自定义网络模型等模型 (lxm(Beta版本内测)🔥已支持)
 
-🚀主流网络模型结构图汇总: [模型🔗](https://github.com/iscyy/yoloair/blob/main/docs/document/model_.md) 
+🚀主流网络模型结构图汇总: [模型🔗](https://github.com/blotemj/lxm/blob/main/docs/document/model_.md) 
 
 以上组件模块使用统一模型代码框架、统一任务形式、统一应用方式，**模块组件化**🚀 可以帮助用户自定义快速组合Backbone、Neck、Head，使得网络模型多样化，助力科研改进检测算法，构建更强大的网络模型。
 
@@ -583,19 +583,19 @@ ______________________________________________________________________
 https://github.com/ultralytics/yolov5/releases/tag/v6.1
 
 - YOLOv4
-https://github.com/iscyy/yoloair/releases/tag/v1.0
+https://github.com/blotemj/lxm/releases/tag/v1.0
 
 - YOLOv3
-https://github.com/iscyy/yoloair/releases/tag/v1.0
+https://github.com/blotemj/lxm/releases/tag/v1.0
 
 - YOLOR
-https://github.com/iscyy/yoloair/releases/tag/v1.0
+https://github.com/blotemj/lxm/releases/tag/v1.0
 
 - Scaled_YOLO
-https://github.com/iscyy/yoloair/releases/tag/v1.0
+https://github.com/blotemj/lxm/releases/tag/v1.0
 
 - YOLOv7
-https://github.com/iscyy/yoloair/releases/tag/v1.0
+https://github.com/blotemj/lxm/releases/tag/v1.0
 
 ______________________________________________________________________
 
@@ -609,8 +609,8 @@ The original version was created based on YOLOv5(v6.1)
 在**Python>=3.7.0** 的环境中克隆版本仓并安装 requirements.txt，包括**PyTorch>=1.7**。
 
 ```bash
-$ git clone https://github.com/iscyy/yoloair.git  # 克隆
-$ cd YOLOAir
+$ git clone https://github.com/blotemj/lxm.git  # 克隆
+$ cd lxm
 $ pip install -r requirements.txt  # 安装
 ```
 
@@ -735,7 +735,7 @@ ______________________________________________________________________
 
 
 ### 未来增强✨
-后续会持续建设和完善 YOLOAir 生态  
+后续会持续建设和完善 lxm 生态  
 完善集成更多 YOLOv5 系列模型，持续结合不同模块，构建更多不同网络模型  
 横向拓展和引入关联技术等等   
 
@@ -744,10 +744,10 @@ ______________________________________________________________________
 ## Citation✨
 
 ```python
-@article{2022yoloair,
-  title={{YOLOAir}: Makes improvements easy again},
-  author={iscyy},
-  repo={github https://github.com/iscyy/yoloair},
+@article{2022lxm,
+  title={{lxm}: Makes improvements easy again},
+  author={blotemj},
+  repo={github https://github.com/blotemj/lxm},
   year={2022}
 }
 ```

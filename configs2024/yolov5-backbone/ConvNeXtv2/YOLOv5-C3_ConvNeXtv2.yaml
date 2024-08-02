@@ -1,5 +1,5 @@
 # YOLOv5 🚀 by Ultralytics, GPL-3.0 license
-# YOLOv5 object detection model. More improvement points for YOLOv5, please see https://github.com/iscyy/yoloair
+# YOLOv5 object detection model. More improvement points for YOLOv5, please see https://github.com/blotemj/lxm
 
 # Parameters
 nc: 80  # number of classes

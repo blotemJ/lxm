@@ -10,7 +10,7 @@ anchors:
   - [30,61, 62,45, 59,119]  # P4/16
   - [116,90, 156,198, 373,326]  # P5/32
 
-# PPYOLOE backbone by yoloair
+# PPYOLOE backbone by lxm
 backbone:
   # [from, number, module, args]
   [

@@ -10,7 +10,7 @@ anchors:
   - [36,75, 76,55, 72,146]  # P4/16
   - [142,110, 192,243, 459,401]  # P5/32
 
-# yolov7 backbone by yoloair
+# yolov7 backbone by lxm
 backbone:
   # [from, number, module, args]
   [[-1, 1, Conv, [32, 3, 1]],  # 0
@@ -54,7 +54,7 @@ backbone:
    [-1, 1, Conv, [256, 3, 1]],
   ]
 
-# yolov7 head by yoloair
+# yolov7 head by lxm
 head:
   [[-1, 1, SPPCSPC_group, [512]],
    [-1, 1, Conv, [256, 1, 1]],

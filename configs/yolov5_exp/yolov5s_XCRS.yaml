@@ -1,4 +1,4 @@
-# YOLOv5 🚀 by YOLOAir, GPL-3.0 license
+# YOLOv5 🚀 by lxm, GPL-3.0 license
 
 # Parameters
 nc: 80  # number of classes
@@ -9,7 +9,7 @@ anchors:
   - [30,61, 62,45, 59,119]  # P4/16
   - [116,90, 156,198, 373,326]  # P5/32
 
-# YOLOAir backbone
+# lxm backbone
 backbone:
   # [from, number, module, args]
   [[-1, 1, Conv, [64, 6, 2, 2]],  # 0-P1/2

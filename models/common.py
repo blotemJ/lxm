@@ -435,7 +435,7 @@ class DetectMultiBackend(nn.Module):
                 interpreter.allocate_tensors()  # allocate
                 input_details = interpreter.get_input_details()  # inputs
                 output_details = interpreter.get_output_details()  # outputs
-            elif tfjs: # https://github.com/iscyy/yoloair
+            elif tfjs: # https://github.com/blotemj/lxm
                 raise Exception('ERROR: YOLOv5 TF.js inference is not supported')
         self.__dict__.update(locals())  # assign all variables to self
 
@@ -480,7 +480,7 @@ class DetectMultiBackend(nn.Module):
             im = im.permute(0, 2, 3, 1).cpu().numpy()  # torch BCHW to numpy BHWC shape(1,320,192,3)
             if self.saved_model:  # SavedModel
                 y = (self.model(im, training=False) if self.keras else self.model(im)[0]).numpy()
-            elif self.pb:  # GraphDef# https://github.com/iscyy/yoloair
+            elif self.pb:  # GraphDef# https://github.com/blotemj/lxm
                 y = self.frozen_func(x=self.tf.constant(im)).numpy()
             else:  # Lite or Edge TPU
                 input, output = self.input_details[0], self.output_details[0]
@@ -539,7 +539,7 @@ class AutoShape(nn.Module):
 
     def _apply(self, fn):
         # Apply to(), cpu(), cuda(), half() to model tensors that are not parameters or registered buffers
-        self = super()._apply(fn)# https://github.com/iscyy/yoloair
+        self = super()._apply(fn)# https://github.com/blotemj/lxm
         if self.pt:
             m = self.model.model.model[-1] if self.dmb else self.model.model[-1]  # Detect()
             m.stride = fn(m.stride)
@@ -641,7 +641,7 @@ class Detections:
         crops = []
         for i, (im, pred) in enumerate(zip(self.imgs, self.pred)):
             s = f'image {i + 1}/{len(self.pred)}: {im.shape[0]}x{im.shape[1]} '  # string
-            if pred.shape[0]:# https://github.com/iscyy/yoloair
+            if pred.shape[0]:# https://github.com/blotemj/lxm
                 for c in pred[:, -1].unique():
                     n = (pred[:, -1] == c).sum()  # detections per class
                     s += f"{n} {self.names[int(c)]}{'s' * (n > 1)}, "  # add to string
@@ -806,7 +806,7 @@ class ACmix(nn.Module):
 
 
         # ### att
-        # ## positional encoding https://github.com/iscyy/yoloair
+        # ## positional encoding https://github.com/blotemj/lxm
         pe = self.conv_p(position(h, w, x.is_cuda))
 
         q_att = q.view(b*self.head, self.head_dim, h, w) * scaling
@@ -886,7 +886,7 @@ class ScaledDotProductAttention(nn.Module):
         :param attention_mask: Mask over attention values (b_s, h, nq, nk). True indicates masking.
         :param attention_weights: Multiplicative weights for attention values (b_s, h, nq, nk).
         :return:
-        # https://github.com/iscyy/yoloair
+        # https://github.com/blotemj/lxm
         '''
         b_s, nq = queries.shape[:2]
         nk = keys.shape[1]
@@ -1065,7 +1065,7 @@ class SPPCSPC_group(nn.Module):
         return self.cv7(torch.cat((y1, y2), dim=1))
 
 class C3HB(nn.Module):
-    # CSP HorBlock with 3 convolutions by iscyy/yoloair
+    # CSP HorBlock with 3 convolutions by blotemj/lxm
     def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5):  # ch_in, ch_out, number, shortcut, groups, expansion
         super().__init__()
         c_ = int(c2 * e)  # hidden channels
@@ -1098,7 +1098,7 @@ class HorLayerNorm(nn.Module):
         self.eps = eps
         self.data_format = data_format
         if self.data_format not in ["channels_last", "channels_first"]:
-            raise NotImplementedError # by iscyy/air
+            raise NotImplementedError # by blotemj/air
         self.normalized_shape = (normalized_shape, )
     
     def forward(self, x):
@@ -1163,7 +1163,7 @@ class gnconv(nn.Module):
         self.scale = s
 
     def forward(self, x, mask=None, dummy=False):
-        # B, C, H, W = x.shape gnconv [512]by iscyy/air
+        # B, C, H, W = x.shape gnconv [512]by blotemj/air
         fused_x = self.proj_in(x)
         pwa, abc = torch.split(fused_x, (self.dims[0], sum(self.dims)), dim=1)
         dw_abc = self.dwconv(abc) * self.scale
@@ -1233,7 +1233,7 @@ class HorNet(nn.Module):
         super().__init__()
         dims = [dim_base, dim_base * 2, dim_base * 4, dim_base * 8]
         self.index = index
-        self.downsample_layers = nn.ModuleList() # stem and 3 intermediate downsampling conv layers by iscyy/air
+        self.downsample_layers = nn.ModuleList() # stem and 3 intermediate downsampling conv layers by blotemj/air
         stem = nn.Sequential(
             nn.Conv2d(in_chans, dims[0], kernel_size=4, stride=4),
             HorLayerNorm(dims[0], eps=1e-6, data_format="channels_first")
@@ -1246,7 +1246,7 @@ class HorNet(nn.Module):
             )
             self.downsample_layers.append(downsample_layer)
 
-        self.stages = nn.ModuleList() # 4 feature resolution stages, each consisting of multiple residual blocks by iscyy/air
+        self.stages = nn.ModuleList() # 4 feature resolution stages, each consisting of multiple residual blocks by blotemj/air
         dp_rates=[x.item() for x in torch.linspace(0, drop_path_rate, sum(depths))] 
 
         if not isinstance(gnconv, list):
@@ -1262,7 +1262,7 @@ class HorNet(nn.Module):
                 layer_scale_init_value=layer_scale_init_value, gnconv=gnconv[i]) for j in range(depths[i])]
             )
             self.stages.append(stage)
-            cur += depths[i] # by iscyy/air
+            cur += depths[i] # by blotemj/air
 
         self.apply(self._init_weights)
 
@@ -1276,7 +1276,7 @@ class HorNet(nn.Module):
         return x
 
 class CNeB(nn.Module):
-    # CSP ConvNextBlock with 3 convolutions by iscyy/yoloair
+    # CSP ConvNextBlock with 3 convolutions by blotemj/lxm
     def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5):  # ch_in, ch_out, number, shortcut, groups, expansion
         super().__init__()
         c_ = int(c2 * e)  # hidden channels
