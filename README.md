@@ -330,3 +330,8 @@ CSDN博客：https://blotemj.blog.csdn.net/
 ![gzh.jpg](gzh.jpg)
 
 更新一些资料，录一些相关视频均在以上平台发布敬请期待。。。
+
+![yolo2.jpeg](yolo2.jpeg)
+
+感谢yolo团队、iscyy、42、bubbliiiing等团队及个人的贡献
+
