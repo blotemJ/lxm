@@ -12,3 +12,9 @@ print("torchvision:" + torchvision.__version__)
 print("torch方法查看CUDA版本：", torch.version.cuda)  # torch方法查看CUDA版本
 print("GPU索引号：", torch.cuda.current_device())  # 查看GPU索引号
 print("GPU名称：", torch.cuda.get_device_name(0))  # 根据索引号得到GPU名称
+
+from PyQt5.QtCore import PYQT_VERSION_STR
+
+print("pyqt5：", PYQT_VERSION_STR)
+
+# 注意这里的空行
